@@ -1,0 +1,234 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    border:0;
+    margin:0;
+    padding-top:60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    float:left;
+    width:40%;
+    margin-left: 25px;
+    margin-top:-10px;
+}
+ul{
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    font-size: large;
+}
+li a{
+  text-decoration: none;
+  margin-right:4rem;
+  color:black;
+  display:block;
+  
+}
+.navbar{
+    background-color: aqua;
+    position:fixed;
+    height:60px;  
+    width:100%;
+    margin-top:-61px;
+    
+}
+li a:hover{
+    transform:scale(1.05);
+    text-transform:uppercase;
+    
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(background1.jpg);
+    background-repeat: repeat;
+}
+.name{
+    margin-top:180px;
+    font-size: 20px;
+    
+}
+.header button{
+    padding:5px;
+    margin-top:15px;
+    background-color: blue;
+    color:white;
+    border:0px;
+    border-radius:10px;
+}
+.header button:hover{
+    transform:scale(1.2);
+    cursor:pointer;
+}
+.header p{
+    color:grey;
+    
+}
+.best h2{
+    font-size:  40px;
+    
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    
+    
+}
+.container .item{
+    border:3px solid black;
+    padding:5px;
+    margin:5px;
+   display:flex;
+    width:100%;
+    border-radius: 15px;
+}
+
+.title strong{
+font-size: 40px;
+}
+.item p{
+    margin-left:10px;
+    font-size: 20px;
+}
+.item img:hover{
+    transform:scale(1.05);
+}
+.add{
+    margin-left:30%;
+    
+    padding:5px;
+    width:100px;
+    color:black;
+    background-color:yellow;
+    border-radius: 10px;
+}
+
+.add:hover{
+    transform:scale(1.05);
+    text-transform: uppercase;
+}
+.box{
+    background-color: blue;
+    width:50px;
+    height:50px;
+    float:right;
+    border-radius: 50%;
+}
+.box1{
+    background-color:greenyellow;
+    width:50px;
+    height:50px;
+    float:right;
+    border-radius: 50%;
+}
+/*box for fictional that is blue dot
+  box1 for nonfictional that is greenyellow dot*/
+  .reco{
+    font-size: 40px;
+    
+  }
+  
+  .searchbar{
+    width:60%;
+    height: 20px;
+    border:2px solid rgb(242, 80, 107);
+    border-radius: 15px;
+  }
+  .container2{
+   display:grid;
+   grid-template-columns:repeat(3,1fr);
+   margin-top:20px;
+   
+  }
+  .rev{
+    font-size: 40px;
+  }
+  .card{
+    border:1px solid black;
+    margin-right:5px;
+    display:flex;
+    flex-direction:rows;
+    flex-wrap: wrap;
+    background-color:aquamarine;
+    border-radius: 15px;
+  }
+  .card img{
+    margin:5px;
+    border-radius:15px;
+  }
+  .cform{
+    font-size: 40px;
+  }
+form{
+    background-image: url(sky_background.jpg);
+    width:60%;
+    height:600px;
+    background-size: cover;
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+    margin-left:20%;
+    margin-bottom:20px;
+}
+label{
+    margin-top:30px;
+    padding:5px;
+    margin-left:15px;
+}
+ input{
+    padding:8px;
+    width:40%;
+    height:10px;
+    margin-left:15px;
+    border-radius: 15px;
+}
+textarea{
+    padding:8px;
+    width:40%;
+    
+    margin-left:15px;
+    border-radius: 15px;  
+}
+input.submit{
+    width:200px;
+    height:30px;
+    margin-top:20px;
+    margin-left:10px;
+}
+input.submit:hover{
+    transform:scale(1.08);
+    cursor:pointer;
+}
+.hbutton{
+    float:right;
+    width:80px;
+    height:30px;
+    background-color: blue;
+    color:white;
+    margin:auto 20px 10px auto;
+}
+.hbutton:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+footer{
+    background-color:black;
+    height: 80px;
+    width:100%;
+    color:grey;
+}
+.links a{
+    text-decoration: none;
+    color:grey;
+    margin-left:20px;
+    padding:15px;
+    
+}
+.foot{
+    float:right;
+    margin-right:40%;
+}
